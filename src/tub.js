@@ -57,6 +57,7 @@ function slowtub(number) {
     for (let j = 2; j < i; j++) {
       if(i % j === 0) {
         bool = false
+        break
       }
     }
     if (bool) {
