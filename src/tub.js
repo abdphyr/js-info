@@ -39,6 +39,9 @@ function midtub(number) {
         break
       }
     }
+    if (bool) {
+      tubs.push(i)
+    }
   }
   return tubs
 }
@@ -55,6 +58,9 @@ function slowtub(number) {
       if(i % j === 0) {
         bool = false
       }
+    }
+    if (bool) {
+      tubs.push(i)
     }
   }
   return tubs
