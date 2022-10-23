@@ -9,11 +9,11 @@ function quicktub(number) {
     }
     let root = Math.floor(Math.sqrt(i))
     for (let tub of tubs) {
-      if(i % tub === 0) {
-        bool = false
+      if (tub > root) {
         break
       }
-      if (tub > root) {
+      if(i % tub === 0) {
+        bool = false
         break
       }
     }
