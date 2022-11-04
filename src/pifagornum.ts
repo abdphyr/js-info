@@ -1,6 +1,6 @@
 /**
  * Berilgan son eng kichigi bo'lgan `pifagor`
- * sonlari guruxini aniqalb beradi
+ * sonlari guruxini aniqlab beradi
  * @param num Number
  * @returns String
  */
